@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/colors';
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -46,7 +46,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
@@ -63,4 +63,4 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-}
+};

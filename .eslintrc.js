@@ -1,12 +1,7 @@
 module.exports = {
   root: true,
-  env: {
-    browser: true,
-    node: true,
-  },
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
+  env: { browser: true, node: true },
+  parserOptions: { parser: 'babel-eslint' },
   extends: [
     '@nuxtjs',
     'prettier',
@@ -15,6 +10,7 @@ module.exports = {
     'plugin:nuxt/recommended',
   ],
   plugins: ['prettier'],
-  // add your custom rules here
-  rules: {},
-}
+  rules: {
+    'no-unused-vars': 'off',
+  },
+};
